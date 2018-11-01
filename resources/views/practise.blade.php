@@ -1,15 +1,14 @@
 @extends('master')
 
-@section('title')
-    Learnvocab
-@endsection
+@section('title','Learn Word Easily!')
+
 
 @section('body')
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner text-center">
+<div id="carouselExampleControls" class="carousel slide px-3" data-ride="carousel">
+    <div class="carousel-inner px-sm-5 text-center">
       <div class="carousel-item text-center active">
-        <div class="card w-50 text-center" style="margin: 0 auto;float: none;">
+        <div class="card w-100  text-center" style="margin: 0 auto;float: none;">
         {{--  <h5 class="card-header">Featured</h5>  --}}
         <div class="card-body text-left">
             <h5 class="card-title">Question One:</h5>
@@ -49,7 +48,7 @@
         </div>
     </div>
     <div class="carousel-item">
-        <div class="card w-50" style="margin: 0 auto;float: none;">
+        <div class="card" style="margin: 0 auto;float: none;">
         {{--  <h5 class="card-header">Featured</h5>  --}}
         <div class="card-body text-left">
             <h5 class="card-title">Question Two:</h5>
@@ -86,7 +85,7 @@
         </div>
     </div>
     <div class="carousel-item">
-        <div class="card w-50" style="margin: 0 auto;float: none;">
+        <div class="card" style="margin: 0 auto;float: none;">
         <div class="card-body text-left">
             <h5 class="card-title">Question Three:</h5>
             <p class="card-text">

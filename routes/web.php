@@ -11,6 +11,8 @@
 |
 */
 
+// dd("Hello");
+
 Route::get('/', function () {
     return view('practise');
 });

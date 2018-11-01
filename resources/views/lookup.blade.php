@@ -1,7 +1,13 @@
 @extends('master')
 
-@section('title')
-    Learnvocab
+@section('title','Learn Word Easily!')
+
+@section('style')
+@media only screen and (max-width: 600px) {
+    .vocab{
+        font-size:4rem !important;
+    }
+}
 @endsection
 
 @section('body')
@@ -19,10 +25,10 @@
         <div class="card-body">
             <h5 class="card-title">
                 <div class="row">
-                    <div class="col-8">
-                        <h1 class="display-1">affiliate</h1>
+                    <div class="col">
+                        <h1 class="display-1 vocab">affiliate</h1>
                     </div>
-                    <div class="col-4">
+                    <div class="col">
                         <a href="" style="color:#6eaf27; text-decoration: none;"><i class="fas fa-check-circle" ></i> Start learning this vocab.</a>
                     </div>
                 </div>

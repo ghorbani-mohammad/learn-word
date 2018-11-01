@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/fontawesome-all.min.css">
     <style>
+        
+        @media(min-width:500px){ .navbar{
+            background-color: transparent !important;
+        }}
+
         .custom-checkbox .custom-control-input:checked~ .custom-control-label::before{
             background-color: green;
         }
@@ -23,6 +28,7 @@
         a:hover{
             color: white;
         }
+        @yield('style')
     </style>
 </head>
 <body>
