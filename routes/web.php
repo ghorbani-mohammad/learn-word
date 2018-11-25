@@ -11,7 +11,6 @@
 |
 */
 
-// dd("Hello");
 
 Route::get('/', function () {
     return view('practise');
@@ -24,5 +23,9 @@ Route::get('lookup',function(){
 
 Route::get('practise',function(){
     return view('practise');
+});
+
+Route::get('testPHP',function(){
+    return view('testPHP');
 });
 
